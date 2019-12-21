@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <title>Calendar To Do List - December Competition</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="all" name="robots">
+    <meta content="© 2019 @KBlbym" name="copyright">
+    <meta content="Khalifa Boulbayem" name="author">
+    <meta name="Keywords"
+        content="Arab Coders, udacity, macdiscussions, December Competition, Front-End, Arab Developers">
+    <meta content="December Competition for Front End Geeks... Building a Calendar To Do List" name="description">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calibri">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="app">
+        <section class="d-flex f-column profile">
+            <header>
+                <nav class="d-flex nav">
+                    <button>
+                        <svg height="24" width="30">
+                            <g fill="none" stroke="white">
+                                <path stroke-width="4" d="M0 5 l115 00" />
+                                <path stroke-width="4" d="M0 13 l215 0" />
+                                <path stroke-width="4" d="M0 21 l215 0" />
+                            </g>
+                        </svg>
+                    </button>
+                    <div class="nav-bar" id="nav-bar">
+                        <ul class="d-flex">
+                            <li><a href="#">Home</a>
+                            <li><a href="#">About us</a>
+                            <li><a href="#">Contact</a>
+                        </ul>
+                    </div>
+                    <button>
+                        <svg height="31" width="31">
+                            <g stroke="white" fill="transparent" stroke-width="4">
+                                <circle cx="13" cy="13" r="10" />
+                                <path stroke-width="4" d="M21.5 21.5 l7 7" />
+                            </g>
+                        </svg>
+                    </button>
+                </nav>
+            </header>
+            <main class="d-flex f-column">
+                <header>
+                    <h1>Good Morning!</h1>
+                </header>
+                <div class="img-group"><img src="https://i.ibb.co/gS0L6CF/1.jpg" alt="Lionel Messi"
+                        title="Lionel Messi" />
+                    <span class="notification">3</span>
+                </div>
+            </main>
+            <footer class="d-flex">
+                <button id="PrevMonth">
+                    <svg height="20" width="16">
+                        <polyline points="16,0 6,10 6,10 16,20" />
+                        Sorry, your browser does not support inline SVG.
+                    </svg>
+                </button>
+                <span>December</span>
+                <button id="NextMonth">
+                    <svg height="20" width="16">
+                        <polyline points="0,0 10,10 10,10 0,20" />
+                        Sorry, your browser does not support inline SVG.
+                    </svg>
+                </button>
+            </footer>
+        </section>
+        <section class="toDoList">
+            <div>
+                <ul class="d-flex">
+                    <li>
+                        <span class="dayOfWeek">Sun</span>
+                        <span class="date">1</span>
+                    </li>
+                    <li>
+                        <span class="dayOfWeek">Mon</span>
+                        <span class="date activeDay isToDo">2</span>
+                    </li>
+                    <li>
+                        <span class="dayOfWeek">Tue</span>
+                        <span class="date">3</span>
+                    </li>
+                    <li>
+                        <span class="dayOfWeek">Wen</span>
+                        <span class="date">4</span>
+                    </li>
+                    <li>
+                        <span class="dayOfWeek">Thu</span>
+                        <span class="date isToDo">6</span>
+                    </li>
+                    <li>
+                        <span class="dayOfWeek">Fri</span>
+                        <span class="date">6</span>
+                    </li>
+                    <li>
+                        <span class="dayOfWeek">Sat</span>
+                        <span class="date">7</span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://i.ibb.co/qF1p81z/2.jpg" alt="Getting my 6th ballon d'or">
+                    <figcaption>
+                        <h1>Getting my 6th ballon d'or</h1>
+                        <p><time>7 - 9pm</time></p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://i.ibb.co/vqpGFxv/3.jpg" alt="Listening to music">
+                    <figcaption>
+                        <h1>Listening to music</h1>
+                        <p><time>11 - 12am</time><span> Hangouts</span></p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://i.ibb.co/4Y8nDHP/4.jpg" alt="Lunch with Ronaldo">
+                    <figcaption>
+                        <h1>Lunch with Ronaldo</h1>
+                        <p><span><time>2pm</time><span> Rastaurant</span></p>
+                    </figcaption>
+                </figure>
+            </div>
+            <button class="btn-add">
+                <svg width="40" height="40">
+                    <circle cx="20" cy="20" r="20" fill="#FC3768" />
+                    <line x1="10" y1="20" x2="30" y2="20" />
+                    <line x1="20" y1="10" x2="20" y2="30" />
+                    Sorry, your browser does not support inline SVG.
+                </svg>
+            </button>
+        </section>
+    </main>
+</body>
+
+</html>
