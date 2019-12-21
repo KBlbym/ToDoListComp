@@ -52,7 +52,7 @@ main#app > section.profile {
   justify-content: space-between;
 }
 
-section.profile > .container {
+section.profile .container {
   align-items: center;
   justify-content: flex-start;
   flex: 1 1 auto;
@@ -87,15 +87,15 @@ section.profile .img-group span.notification {
   line-height: 32px;
   box-sizing: border-box;
 }
-section.profile > .footer {
+section.profile .footer {
   align-self: stretch;
   justify-content: space-between;
   align-items: center;
 }
-section.profile > .footer > span {
+section.profile .footer > span {
   text-transform: uppercase;
 }
-section.profile > .footer svg polyline {
+section.profile .footer svg polyline {
   fill: none;
   stroke: rgba(255, 253, 253, 0.8);
   stroke-width: 5;
