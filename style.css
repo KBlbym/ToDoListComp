@@ -52,7 +52,7 @@ main#app > section.profile {
   justify-content: space-between;
 }
 
-section.profile > div.main {
+section.profile > div.container {
   align-items: center;
   justify-content: flex-start;
   flex: 1 1 auto;
