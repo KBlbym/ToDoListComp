@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+h1{
+  font-weight: 100;
+}
 body{
   margin: 10px;
   background-color: #ccc;
@@ -60,10 +63,8 @@ section.profile > header {
 }
 section.profile h1 {
   padding: 25px;
-  font-weight: 100;
   letter-spacing: 3px;
 }
-
 section.profile img {
   border-radius: 50%;
   width: 100%;
