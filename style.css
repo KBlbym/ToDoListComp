@@ -134,13 +134,13 @@ section.toDoList > div {
 }
 .toDoList ul li span.date {
   border-radius: 50%;
-  width: 32;
-  height: 32;
+  width: 32px;
+  height: 32px;
 }
 .toDoList ul li span.date:not(.isToDo) {
   border-radius: 50%;
-  width: 32;
-  height: 32;
+  width: 32px;
+  height: 32px;
   line-height: 32px;
 }
 .toDoList ul li span.activeDay {
